@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" > <!--parallel="true"  并行-->
+        <listeners>
+            <listener class-name="org.uncommons.reportng.HTMLReporter" />
+            <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        </listeners>
+    <test name="Test" preserver-order="true" >
+          <classes>
+            <class name="com.sumavision.testcase.IPTV">
+                <methods>
+                    <include name="moveFocus" />
+                    <exclude name="inioLookBack" />
+                    <exclude name="intoLookBackMore" />
+                    <exclude name="intoVod" />
+                    <exclude name="intoLive" />
+                    <exclude name="playLive" />
+                    <exclude name="playVod" />
+                    <exclude name="playHDStateChange" />
+                    <exclude name="play4KStateChange" />
+                    <exclude name="playliveSeek" />
+                    <exclude name="playVodSeek" />
+                    <exclude name="playLiveByRate" />
+                    <exclude name="playVodByRate" />
+                    <exclude name="cutChannel" />
+                    <exclude name="cutChannelByFCC" />
+                    <exclude name="cutHDStateChange" />
+                    <exclude name="cut4KStateChange" />
+                </methods>
+            </class>
+        </classes>
+    </test><!--Test-->
+</suite><!--Suite-->
