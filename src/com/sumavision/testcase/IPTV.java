@@ -33,6 +33,11 @@ public class IPTV extends InitDriver {
 		oTest.quitApp();
 	}
 	@Test
+	public void checkHome() {
+		boolean flag = oTest.checkHome();
+		Assertion.verifyEquals(flag, true, "认证未通过！！");
+	}
+	@Test
 	public void moveFocus() {
 		boolean flag = oTest.moveFocus();
 		Assertion.verifyEquals(flag, true);
@@ -49,58 +54,97 @@ public class IPTV extends InitDriver {
 	}
 	@Test
 	public void intoVod() {
-		oTest.intoVod(1);
+		boolean flag = oTest.intoVod();
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
 	public void intoLive() {
-		oTest.intoLive();	
+		boolean flag = oTest.intoLive();
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
 	public void playLive() {
-		oTest.playLive(1);
+		boolean flag = oTest.playLive(1);
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
 	public void playVod() {
-		oTest.playVod(9);
+		boolean flag = oTest.playVod(9);
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
-	public void playHDStateChange() {
-		oTest.playHDStateChange();
+	public void playHDTimeShiftAndLive() {
+		boolean flag = oTest.playHDTimeShiftAndLive();
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
-	public void play4KStateChange() {
-		oTest.play4KStateChange();
+	public void play4KTimeShiftAndLive() {
+		boolean flag = oTest.play4KTimeShiftAndLive();
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
-	public void playliveSeek() {
-		oTest.playliveSeek();
+	public void playLiveSeek() {
+		boolean flag = oTest.playLiveSeek();
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
 	public void playVodSeek() {
-		oTest.playVodSeek();
+		boolean flag = oTest.playVodSeek();
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
 	public void playLiveByRate() {
-		oTest.playLiveByRate(9);
+		boolean flag = oTest.playLiveByRate(9);
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
 	public void playVodByRate() {
-		oTest.playVodByRate(2);
+		boolean flag = oTest.playVodByRate(2);
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
 	public void cutChannel() {
-		oTest.cutChannel();
+		boolean flag = oTest.cutChannel();
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
 	public void cutChannelByFCC() {
-		oTest.cutChannelByFCC();
+		boolean flag = oTest.cutChannelByFCC();
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
-	public void cutHDStateChange() {
-		oTest.cutHDStateChange();
+	public void setHDStartAndPause() {
+		boolean flag = oTest.setHDStartAndPause();
+		Assertion.verifyEquals(flag, true);
 	}
 	@Test
-	public void cut4KStateChange() {
-		oTest.cut4KStateChange();
+	public void set4KStartAndPause() {
+		boolean flag = oTest.set4KStartAndPause();
+		Assertion.verifyEquals(flag, true);
+	}
+	@Test
+	public void setVolume() {
+		boolean flag = oTest.setVolume();
+		Assertion.verifyEquals(flag, true);
+	}
+	@Test
+	public void setMute() {
+		boolean flag = oTest.setMute();
+		Assertion.verifyEquals(flag, true);
+	}
+	@Test 
+	public void setChannel() {
+		boolean flag = oTest.setChannel();
+		Assertion.verifyEquals(flag, true);
+	}
+	@Test
+	public void fillLive() {
+		boolean flag = oTest.fillLive();
+		Assertion.verifyEquals(flag, true);
+	}
+	@Test
+	public void fillVod() {
+		boolean flag = oTest.fillVod();
+		Assertion.verifyEquals(flag, true);
 	}
 }

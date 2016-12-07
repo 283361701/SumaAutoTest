@@ -8,23 +8,29 @@
           <classes>
             <class name="com.sumavision.testcase.IPTV">
                 <methods>
+                    <include name="checkHome" />
                     <include name="moveFocus" />
-                    <exclude name="inioLookBack" />
-                    <exclude name="intoLookBackMore" />
-                    <exclude name="intoVod" />
-                    <exclude name="intoLive" />
-                    <exclude name="playLive" />
-                    <exclude name="playVod" />
-                    <exclude name="playHDStateChange" />
-                    <exclude name="play4KStateChange" />
-                    <exclude name="playliveSeek" />
-                    <exclude name="playVodSeek" />
-                    <exclude name="playLiveByRate" />
-                    <exclude name="playVodByRate" />
-                    <exclude name="cutChannel" />
-                    <exclude name="cutChannelByFCC" />
-                    <exclude name="cutHDStateChange" />
-                    <exclude name="cut4KStateChange" />
+                    <include name="inioLookBack" />
+                    <include name="intoLookBackMore" />
+                    <include name="intoVod" />
+                    <include name="intoLive" />
+                    <include name="playLive" />
+                    <include name="playVod" />
+                    <include name="playHDTimeShiftAndLive" />
+                    <include name="play4kTimeShiftAndLive" />
+                    <include name="playLiveSeek" />
+                    <include name="playVodSeek" />
+                    <include name="playLiveByRate" />
+                    <include name="playVodByRate" />
+                    <include name="cutChannel" />
+                    <include name="cutChannelByFCC" />
+                    <include name="setHDStartAndPause" />
+                    <include name="set4KStartAndPause" />
+                    <include name="setMute" />
+                    <include name="setVolume" />
+                    <include name="setChannel" />
+                    <include name="fillLive" />
+                    <include name="fillVod" />
                 </methods>
             </class>
         </classes>
