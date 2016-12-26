@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Setting"
+           tests="23"
+           failures="22"
+           errors="0"
+           skipped="0"
+           time="193.262">
+  <properties />
+            <testcase name="checkSpeed" time="3.285" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkSpeed(
+Error Class:Setting
+Error Index:116)
+  com.sumavision.testcase.Setting.checkSpeed(Setting.java:116)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkBluetooth" time="21.910" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkBluetooth(
+Error Class:Setting
+Error Index:224)
+  com.sumavision.testcase.Setting.checkBluetooth(Setting.java:224)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="readServiceInfo" time="5.945" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:readServiceInfo(
+Error Class:Setting
+Error Index:179)
+  com.sumavision.testcase.Setting.readServiceInfo(Setting.java:179)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="readDeviceInfo" time="3.592" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:readDeviceInfo(
+Error Class:Setting
+Error Index:152)
+  com.sumavision.testcase.Setting.readDeviceInfo(Setting.java:152)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkAp" time="4.963" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkAp(
+Error Class:Setting
+Error Index:71)
+  com.sumavision.testcase.Setting.checkAp(Setting.java:71)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkIPv6" time="4.349" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkIPv6(
+Error Class:Setting
+Error Index:80)
+  com.sumavision.testcase.Setting.checkIPv6(Setting.java:80)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkTest" time="2.206" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkTest(
+Error Class:Setting
+Error Index:107)
+  com.sumavision.testcase.Setting.checkTest(Setting.java:107)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkHDRState" time="8.355" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkHDRState(
+Error Class:Setting
+Error Index:215)
+  com.sumavision.testcase.Setting.checkHDRState(Setting.java:215)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkAutoStandBy" time="18.571" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkAutoStandBy(
+Error Class:Setting
+Error Index:233)
+  com.sumavision.testcase.Setting.checkAutoStandBy(Setting.java:233)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkWiFi" time="16.890" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkWiFi(
+Error Class:Setting
+Error Index:89)
+  com.sumavision.testcase.Setting.checkWiFi(Setting.java:89)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkThrough" time="7.372" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkThrough(
+Error Class:Setting
+Error Index:206)
+  com.sumavision.testcase.Setting.checkThrough(Setting.java:206)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkAbout" time="4.138" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkAbout(
+Error Class:Setting
+Error Index:260)
+  com.sumavision.testcase.Setting.checkAbout(Setting.java:260)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="readNetwrodInfo" time="5.224" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:readNetwrodInfo(
+Error Class:Setting
+Error Index:170)
+  com.sumavision.testcase.Setting.readNetwrodInfo(Setting.java:170)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkInputMethod" time="5.566" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkInputMethod(
+Error Class:Setting
+Error Index:188)
+  com.sumavision.testcase.Setting.checkInputMethod(Setting.java:188)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkNTPServer" time="19.040" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkNTPServer(
+Error Class:Setting
+Error Index:242)
+  com.sumavision.testcase.Setting.checkNTPServer(Setting.java:242)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkImageScale" time="2.515" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkImageScale(
+Error Class:Setting
+Error Index:134)
+  com.sumavision.testcase.Setting.checkImageScale(Setting.java:134)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkPlatform" time="3.051" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkPlatform(
+Error Class:Setting
+Error Index:143)
+  com.sumavision.testcase.Setting.checkPlatform(Setting.java:143)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="readVersionInfo" time="4.505" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:readVersionInfo(
+Error Class:Setting
+Error Index:161)
+  com.sumavision.testcase.Setting.readVersionInfo(Setting.java:161)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkProtocol" time="6.440" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkProtocol(
+Error Class:Setting
+Error Index:197)
+  com.sumavision.testcase.Setting.checkProtocol(Setting.java:197)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkWiFiPPPoE" time="18.326" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkWiFiPPPoE(
+Error Class:Setting
+Error Index:98)
+  com.sumavision.testcase.Setting.checkWiFiPPPoE(Setting.java:98)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkResolution" time="2.096" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkResolution(
+Error Class:Setting
+Error Index:125)
+  com.sumavision.testcase.Setting.checkResolution(Setting.java:125)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkInfoPort" time="24.078" classname="com.sumavision.testcase.Setting">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkInfoPort(
+Error Class:Setting
+Error Index:251)
+  com.sumavision.testcase.Setting.checkInfoPort(Setting.java:251)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="checkNetword" time="0.845" classname="com.sumavision.testcase.Setting" />
+      
+</testsuite>

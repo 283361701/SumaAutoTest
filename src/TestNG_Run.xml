@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" allow-return-values="true" > <!--parallel="true"  并行-->
+        <listeners>
+            <listener class-name="org.uncommons.reportng.HTMLReporter" />
+            <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        </listeners>
+    <test name="Launcher" preserver-order="true" >
+          <classes>
+            <class name="com.sumavision.testcase.Launcher">
+                <methods>
+                    <include name="checkNTPTime" />
+                    <include name="checkLauncher" />
+                    <include name="launchIPTV" />
+                    <include name="launchTVRcs" />
+                    <include name="checkGame" />
+                    <include name="checkShopping" />
+                    <include name="checkAppList" />
+                    <include name="launchAppStore" />
+                    <include name="launchLocalPlayer" />
+                    <include name="launchMiracast" />
+                    <include name="launchSetting" />
+                    <include name="launchIPTVbyApp" />
+                    <include name="launchMusicApp" />
+                </methods>
+            </class>
+        </classes>
+    </test><!--Test-->
+    <!-- 
+    <test name="IPTV" >
+          <classes>
+             <class name="com.sumavision.testcase.IPTV">
+                <methods>
+                    <include name="checkHome" />
+                    <include name="moveFocus" />
+                    <include name="inioLookBack" />
+                    <include name="intoLookBackMore" />
+                    <include name="intoVod" />
+                    <include name="intoLive" />
+                    <include name="playLive" />
+                    <include name="playVod" />
+                    <include name="playHDTimeShiftAndLive" />
+                    <include name="play4kTimeShiftAndLive" />
+                    <include name="playLiveSeek" />
+                    <include name="playVodSeek" />
+                    <include name="playLiveByRate" />
+                    <include name="playVodByRate" />
+                    <include name="cutChannel" />
+                    <include name="cutChannelByFCC" />
+                    <include name="setHDStartAndPause" />
+                    <include name="set4KStartAndPause" />
+                    <include name="setMute" />
+                    <include name="setVolume" />
+                    <include name="setChannel" />
+                    <include name="fillLive" />
+                    <include name="fillVod" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    -->
+    <test name="Setting" >
+          <classes>
+            <class name="com.sumavision.testcase.Setting">
+                <methods>
+                    <include name="checkNetword" /> 
+                    <include name="checkAp" />
+                    <include name="checkIPv6" />
+                    <include name="checkWiFi" />
+                    <include name="checkWiFiPPPoE" />
+                    <include name="checkTest" />
+                    <include name="checkSpeed" />
+                    <include name="checkResolution" />
+                    <include name="checkImageScale" />
+                    <include name="checkPlatform" />
+                    <include name="readDeviceInfo" />
+                    <include name="readVersionInfo" />
+                    <include name="readNetwrodInfo" />
+                    <include name="readServiceInfo" />
+                    <include name="checkAbout" />
+                    <include name="checkInputMethod" />
+                    <include name="checkProtocol" />
+                    <include name="checkThrough" />
+                    <include name="checkHDRState" />
+                    <include name="checkBluetooth" />
+                    <include name="checkAutoStandBy" />
+                    <include name="checkNTPServer" />
+                    <include name="checkInfoPort" />
+                </methods>
+            </class>
+        </classes>
+    </test><!--Test-->
+    <test name="AppStore" >
+          <classes>
+            <class name="com.sumavision.testcase.AppStore">
+                <methods>
+                    <include name="checkStoreHome" />
+                    <include name="checkStoreMusic" />
+                    <include name="checkStoreShopping" />
+                    <include name="installApp1" />
+                    <include name="installApp2" />
+                    <include name="installApp3" />
+                    <include name="installApp4" />
+                    <include name="installApp5" />
+                    <include name="installApp6" />
+                    <include name="installApp7" />
+                    <include name="installApp8" />
+                    <include name="installApp9" />
+                    <include name="installTLKG" />
+                    <include name="installTBTV" />
+                    <include name="installSYYG" />
+                    <include name="findWJYP" />
+                    <include name="checkAppUpgrade" />
+                    <include name="openAppByList" />
+                    <include name="removeAppByList" />
+                </methods>
+            </class>
+        </classes>
+    </test><!--Test-->
+    <test name="LocalPlayer" >
+          <classes>
+            <class name="com.sumavision.testcase.LocalPlayer">
+                <methods>
+                    <include name="checkAppShow" />
+                    <include name="checkMenuByList" />
+                    <include name="checkMenuByVideo" />
+                    <include name="checkMenuByMusic" />
+                    <include name="checkMenuByPictrue" />
+                    <include name="fillVideo" />
+                    <include name="fillMusic" />
+                    <include name="fillPictrue" />
+                    <include name="checkVideoPause" />
+                    <include name="checkVideoForward" />
+                    <include name="checkVideoBackward" />
+                    <include name="checkSubtitleByIn" />
+                    <include name="checkSubtitleBySRT" />
+                    <include name="checkSubtitleBySUB" />
+                    <include name="checkSoundTrack" />
+                    <include name="checkPictureThumb" />
+                </methods>
+            </class>
+        </classes>
+    </test><!--Test-->
+</suite><!--Suite-->

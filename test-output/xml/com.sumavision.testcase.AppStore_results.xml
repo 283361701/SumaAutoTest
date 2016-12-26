@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppStore"
+           tests="19"
+           failures="18"
+           errors="0"
+           skipped="0"
+           time="196.656">
+  <properties />
+            <testcase name="installApp8" time="8.956" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installApp8(
+Error Class:AppStore
+Error Index:146)
+  com.sumavision.testcase.AppStore.installApp8(AppStore.java:146)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="removeAppByList" time="4.799" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:removeAppByList(
+Error Class:AppStore
+Error Index:218)
+  com.sumavision.testcase.AppStore.removeAppByList(AppStore.java:218)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkStoreMusic" time="6.348" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkStoreMusic(
+Error Class:AppStore
+Error Index:65)
+  com.sumavision.testcase.AppStore.checkStoreMusic(AppStore.java:65)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installApp6" time="8.213" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installApp6(
+Error Class:AppStore
+Error Index:128)
+  com.sumavision.testcase.AppStore.installApp6(AppStore.java:128)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installTLKG" time="9.284" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installTLKG(
+Error Class:AppStore
+Error Index:164)
+  com.sumavision.testcase.AppStore.installTLKG(AppStore.java:164)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installApp9" time="9.557" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installApp9(
+Error Class:AppStore
+Error Index:155)
+  com.sumavision.testcase.AppStore.installApp9(AppStore.java:155)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installSYYG" time="15.420" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installSYYG(
+Error Class:AppStore
+Error Index:182)
+  com.sumavision.testcase.AppStore.installSYYG(AppStore.java:182)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installApp4" time="12.475" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installApp4(
+Error Class:AppStore
+Error Index:110)
+  com.sumavision.testcase.AppStore.installApp4(AppStore.java:110)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installApp2" time="7.783" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installApp2(
+Error Class:AppStore
+Error Index:92)
+  com.sumavision.testcase.AppStore.installApp2(AppStore.java:92)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installTBTV" time="11.978" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installTBTV(
+Error Class:AppStore
+Error Index:173)
+  com.sumavision.testcase.AppStore.installTBTV(AppStore.java:173)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installApp1" time="10.794" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installApp1(
+Error Class:AppStore
+Error Index:83)
+  com.sumavision.testcase.AppStore.installApp1(AppStore.java:83)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="openAppByList" time="3.729" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:openAppByList(
+Error Class:AppStore
+Error Index:209)
+  com.sumavision.testcase.AppStore.openAppByList(AppStore.java:209)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkStoreShopping" time="8.187" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkStoreShopping(
+Error Class:AppStore
+Error Index:74)
+  com.sumavision.testcase.AppStore.checkStoreShopping(AppStore.java:74)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installApp7" time="8.676" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installApp7(
+Error Class:AppStore
+Error Index:137)
+  com.sumavision.testcase.AppStore.installApp7(AppStore.java:137)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installApp5" time="9.570" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installApp5(
+Error Class:AppStore
+Error Index:119)
+  com.sumavision.testcase.AppStore.installApp5(AppStore.java:119)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="checkAppUpgrade" time="20.934" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:checkAppUpgrade(
+Error Class:AppStore
+Error Index:200)
+  com.sumavision.testcase.AppStore.checkAppUpgrade(AppStore.java:200)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="findWJYP" time="24.049" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:findWJYP(
+Error Class:AppStore
+Error Index:191)
+  com.sumavision.testcase.AppStore.findWJYP(AppStore.java:191)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="installApp3" time="15.904" classname="com.sumavision.testcase.AppStore">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:installApp3(
+Error Class:AppStore
+Error Index:101)
+  com.sumavision.testcase.AppStore.installApp3(AppStore.java:101)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="checkStoreHome" time="0.000" classname="com.sumavision.testcase.AppStore" />
+      
+</testsuite>

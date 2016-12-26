@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IPTV"
+           tests="22"
+           failures="4"
+           errors="0"
+           skipped="0"
+           time="1367.683">
+  <properties />
+            <testcase name="intoLookBackMore" time="3.864" classname="com.sumavision.testcase.IPTV">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:intoLookBackMore(
+Error Class:IPTV
+Error Index:63)
+  com.sumavision.testcase.IPTV.intoLookBackMore(IPTV.java:63)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="intoLive" time="4.426" classname="com.sumavision.testcase.IPTV">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:intoLive(
+Error Class:IPTV
+Error Index:73)
+  com.sumavision.testcase.IPTV.intoLive(IPTV.java:73)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="inioLookBack" time="5.316" classname="com.sumavision.testcase.IPTV">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:inioLookBack(
+Error Class:IPTV
+Error Index:58)
+  com.sumavision.testcase.IPTV.inioLookBack(IPTV.java:58)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="intoVod" time="7.751" classname="com.sumavision.testcase.IPTV">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:intoVod(
+Error Class:IPTV
+Error Index:68)
+  com.sumavision.testcase.IPTV.intoVod(IPTV.java:68)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="setHDStartAndPause" time="8.246" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="fillLive" time="559.489" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="setChannel" time="1.902" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="playVodSeek" time="11.983" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="setVolume" time="12.176" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="playLive" time="8.316" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="cutChannel" time="8.075" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="moveFocus" time="7.239" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="set4KStartAndPause" time="6.712" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="playVodByRate" time="32.540" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="playHDTimeShiftAndLive" time="5.416" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="playLiveByRate" time="28.804" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="checkHome" time="2.805" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="playLiveSeek" time="10.078" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="playVod" time="112.464" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="cutChannelByFCC" time="8.184" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="setMute" time="1.417" classname="com.sumavision.testcase.IPTV" />
+                <testcase name="fillVod" time="520.480" classname="com.sumavision.testcase.IPTV" />
+      
+</testsuite>

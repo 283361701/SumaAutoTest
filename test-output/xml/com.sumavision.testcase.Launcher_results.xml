@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Launcher"
+           tests="13"
+           failures="7"
+           errors="0"
+           skipped="0"
+           time="77.094">
+  <properties />
+            <testcase name="launchAppStore" time="8.696" classname="com.sumavision.testcase.Launcher">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:launchAppStore(
+Error Class:Launcher
+Error Index:95)
+  com.sumavision.testcase.Launcher.launchAppStore(Launcher.java:95)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="launchSetting" time="8.172" classname="com.sumavision.testcase.Launcher">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:launchSetting(
+Error Class:Launcher
+Error Index:116)
+  com.sumavision.testcase.Launcher.launchSetting(Launcher.java:116)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="launchIPTVbyApp" time="7.336" classname="com.sumavision.testcase.Launcher">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:launchIPTVbyApp(
+Error Class:Launcher
+Error Index:123)
+  com.sumavision.testcase.Launcher.launchIPTVbyApp(Launcher.java:123)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="launchTVRcs" time="1.825" classname="com.sumavision.testcase.Launcher">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:launchTVRcs(
+Error Class:Launcher
+Error Index:67)
+  com.sumavision.testcase.Launcher.launchTVRcs(Launcher.java:67)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="launchLocalPlayer" time="8.011" classname="com.sumavision.testcase.Launcher">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:launchLocalPlayer(
+Error Class:Launcher
+Error Index:102)
+  com.sumavision.testcase.Launcher.launchLocalPlayer(Launcher.java:102)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="launchMiracast" time="7.041" classname="com.sumavision.testcase.Launcher">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:launchMiracast(
+Error Class:Launcher
+Error Index:109)
+  com.sumavision.testcase.Launcher.launchMiracast(Launcher.java:109)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="launchMusicApp" time="30.537" classname="com.sumavision.testcase.Launcher">
+                <failure type="java.lang.Throwable"
+                  message="(null)"
+              >
+<![CDATA[java.lang.Throwable
+  
+Error Message: expected [true] but found [false].
+Error Mothod:launchMusicApp(
+Error Class:Launcher
+Error Index:130)
+  com.sumavision.testcase.Launcher.launchMusicApp(Launcher.java:130)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="checkGame" time="0.637" classname="com.sumavision.testcase.Launcher" />
+                <testcase name="checkLauncher" time="0.001" classname="com.sumavision.testcase.Launcher" />
+                <testcase name="checkAppList" time="2.107" classname="com.sumavision.testcase.Launcher" />
+                <testcase name="checkNTPTime" time="0.004" classname="com.sumavision.testcase.Launcher" />
+                <testcase name="checkShopping" time="1.557" classname="com.sumavision.testcase.Launcher" />
+                <testcase name="launchIPTV" time="1.170" classname="com.sumavision.testcase.Launcher" />
+      
+</testsuite>
